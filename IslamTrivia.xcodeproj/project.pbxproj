@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A71678DB2BFE70E70046ECBE /* IslamTriviaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71678DA2BFE70E70046ECBE /* IslamTriviaApp.swift */; };
+		A71678DD2BFE70E70046ECBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71678DC2BFE70E70046ECBE /* ContentView.swift */; };
+		A71678DF2BFE70E80046ECBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A71678DE2BFE70E80046ECBE /* Assets.xcassets */; };
+		A71678E22BFE70E80046ECBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A71678E12BFE70E80046ECBE /* Preview Assets.xcassets */; };
+		A71678EC2BFE70E80046ECBE /* IslamTriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71678EB2BFE70E80046ECBE /* IslamTriviaTests.swift */; };
+		A71678F62BFE70E80046ECBE /* IslamTriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71678F52BFE70E80046ECBE /* IslamTriviaUITests.swift */; };
+		A71678F82BFE70E80046ECBE /* IslamTriviaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71678F72BFE70E80046ECBE /* IslamTriviaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A71678E82BFE70E80046ECBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A71678CF2BFE70E70046ECBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A71678D62BFE70E70046ECBE;
+			remoteInfo = IslamTrivia;
+		};
+		A71678F22BFE70E80046ECBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A71678CF2BFE70E70046ECBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A71678D62BFE70E70046ECBE;
+			remoteInfo = IslamTrivia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A71678D72BFE70E70046ECBE /* IslamTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IslamTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71678DA2BFE70E70046ECBE /* IslamTriviaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamTriviaApp.swift; sourceTree = "<group>"; };
+		A71678DC2BFE70E70046ECBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A71678DE2BFE70E80046ECBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A71678E12BFE70E80046ECBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A71678E72BFE70E80046ECBE /* IslamTriviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IslamTriviaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71678EB2BFE70E80046ECBE /* IslamTriviaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamTriviaTests.swift; sourceTree = "<group>"; };
+		A71678F12BFE70E80046ECBE /* IslamTriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IslamTriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71678F52BFE70E80046ECBE /* IslamTriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamTriviaUITests.swift; sourceTree = "<group>"; };
+		A71678F72BFE70E80046ECBE /* IslamTriviaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamTriviaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A71678D42BFE70E70046ECBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71678E42BFE70E80046ECBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71678EE2BFE70E80046ECBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A71678CE2BFE70E70046ECBE = {
+			isa = PBXGroup;
+			children = (
+				A71678D92BFE70E70046ECBE /* IslamTrivia */,
+				A71678EA2BFE70E80046ECBE /* IslamTriviaTests */,
+				A71678F42BFE70E80046ECBE /* IslamTriviaUITests */,
+				A71678D82BFE70E70046ECBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A71678D82BFE70E70046ECBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A71678D72BFE70E70046ECBE /* IslamTrivia.app */,
+				A71678E72BFE70E80046ECBE /* IslamTriviaTests.xctest */,
+				A71678F12BFE70E80046ECBE /* IslamTriviaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A71678D92BFE70E70046ECBE /* IslamTrivia */ = {
+			isa = PBXGroup;
+			children = (
+				A71678DA2BFE70E70046ECBE /* IslamTriviaApp.swift */,
+				A71678DC2BFE70E70046ECBE /* ContentView.swift */,
+				A71678DE2BFE70E80046ECBE /* Assets.xcassets */,
+				A71678E02BFE70E80046ECBE /* Preview Content */,
+			);
+			path = IslamTrivia;
+			sourceTree = "<group>";
+		};
+		A71678E02BFE70E80046ECBE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A71678E12BFE70E80046ECBE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A71678EA2BFE70E80046ECBE /* IslamTriviaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A71678EB2BFE70E80046ECBE /* IslamTriviaTests.swift */,
+			);
+			path = IslamTriviaTests;
+			sourceTree = "<group>";
+		};
+		A71678F42BFE70E80046ECBE /* IslamTriviaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A71678F52BFE70E80046ECBE /* IslamTriviaUITests.swift */,
+				A71678F72BFE70E80046ECBE /* IslamTriviaUITestsLaunchTests.swift */,
+			);
+			path = IslamTriviaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A71678D62BFE70E70046ECBE /* IslamTrivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A71678FB2BFE70E80046ECBE /* Build configuration list for PBXNativeTarget "IslamTrivia" */;
+			buildPhases = (
+				A71678D32BFE70E70046ECBE /* Sources */,
+				A71678D42BFE70E70046ECBE /* Frameworks */,
+				A71678D52BFE70E70046ECBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IslamTrivia;
+			productName = IslamTrivia;
+			productReference = A71678D72BFE70E70046ECBE /* IslamTrivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A71678E62BFE70E80046ECBE /* IslamTriviaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A71678FE2BFE70E80046ECBE /* Build configuration list for PBXNativeTarget "IslamTriviaTests" */;
+			buildPhases = (
+				A71678E32BFE70E80046ECBE /* Sources */,
+				A71678E42BFE70E80046ECBE /* Frameworks */,
+				A71678E52BFE70E80046ECBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A71678E92BFE70E80046ECBE /* PBXTargetDependency */,
+			);
+			name = IslamTriviaTests;
+			productName = IslamTriviaTests;
+			productReference = A71678E72BFE70E80046ECBE /* IslamTriviaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A71678F02BFE70E80046ECBE /* IslamTriviaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A71679012BFE70E80046ECBE /* Build configuration list for PBXNativeTarget "IslamTriviaUITests" */;
+			buildPhases = (
+				A71678ED2BFE70E80046ECBE /* Sources */,
+				A71678EE2BFE70E80046ECBE /* Frameworks */,
+				A71678EF2BFE70E80046ECBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A71678F32BFE70E80046ECBE /* PBXTargetDependency */,
+			);
+			name = IslamTriviaUITests;
+			productName = IslamTriviaUITests;
+			productReference = A71678F12BFE70E80046ECBE /* IslamTriviaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A71678CF2BFE70E70046ECBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A71678D62BFE70E70046ECBE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A71678E62BFE70E80046ECBE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A71678D62BFE70E70046ECBE;
+					};
+					A71678F02BFE70E80046ECBE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A71678D62BFE70E70046ECBE;
+					};
+				};
+			};
+			buildConfigurationList = A71678D22BFE70E70046ECBE /* Build configuration list for PBXProject "IslamTrivia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A71678CE2BFE70E70046ECBE;
+			productRefGroup = A71678D82BFE70E70046ECBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A71678D62BFE70E70046ECBE /* IslamTrivia */,
+				A71678E62BFE70E80046ECBE /* IslamTriviaTests */,
+				A71678F02BFE70E80046ECBE /* IslamTriviaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A71678D52BFE70E70046ECBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71678E22BFE70E80046ECBE /* Preview Assets.xcassets in Resources */,
+				A71678DF2BFE70E80046ECBE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71678E52BFE70E80046ECBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71678EF2BFE70E80046ECBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A71678D32BFE70E70046ECBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71678DD2BFE70E70046ECBE /* ContentView.swift in Sources */,
+				A71678DB2BFE70E70046ECBE /* IslamTriviaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71678E32BFE70E80046ECBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71678EC2BFE70E80046ECBE /* IslamTriviaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71678ED2BFE70E80046ECBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71678F82BFE70E80046ECBE /* IslamTriviaUITestsLaunchTests.swift in Sources */,
+				A71678F62BFE70E80046ECBE /* IslamTriviaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A71678E92BFE70E80046ECBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A71678D62BFE70E70046ECBE /* IslamTrivia */;
+			targetProxy = A71678E82BFE70E80046ECBE /* PBXContainerItemProxy */;
+		};
+		A71678F32BFE70E80046ECBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A71678D62BFE70E70046ECBE /* IslamTrivia */;
+			targetProxy = A71678F22BFE70E80046ECBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A71678F92BFE70E80046ECBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A71678FA2BFE70E80046ECBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A71678FC2BFE70E80046ECBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IslamTrivia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ITK.IslamTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A71678FD2BFE70E80046ECBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IslamTrivia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ITK.IslamTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A71678FF2BFE70E80046ECBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ITK.IslamTriviaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IslamTrivia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IslamTrivia";
+			};
+			name = Debug;
+		};
+		A71679002BFE70E80046ECBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ITK.IslamTriviaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IslamTrivia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IslamTrivia";
+			};
+			name = Release;
+		};
+		A71679022BFE70E80046ECBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ITK.IslamTriviaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IslamTrivia;
+			};
+			name = Debug;
+		};
+		A71679032BFE70E80046ECBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ITK.IslamTriviaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IslamTrivia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A71678D22BFE70E70046ECBE /* Build configuration list for PBXProject "IslamTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71678F92BFE70E80046ECBE /* Debug */,
+				A71678FA2BFE70E80046ECBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A71678FB2BFE70E80046ECBE /* Build configuration list for PBXNativeTarget "IslamTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71678FC2BFE70E80046ECBE /* Debug */,
+				A71678FD2BFE70E80046ECBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A71678FE2BFE70E80046ECBE /* Build configuration list for PBXNativeTarget "IslamTriviaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71678FF2BFE70E80046ECBE /* Debug */,
+				A71679002BFE70E80046ECBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A71679012BFE70E80046ECBE /* Build configuration list for PBXNativeTarget "IslamTriviaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71679022BFE70E80046ECBE /* Debug */,
+				A71679032BFE70E80046ECBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A71678CF2BFE70E70046ECBE /* Project object */;
+}
