@@ -27,7 +27,7 @@ extension Text{
 }
 
 extension VStack{
-    func darkGreenView() -> some View{
+    func lightYellowView() -> some View{
         self.frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
             .edgesIgnoringSafeArea(.all)
             .background(Color("BackgroundColor"))
