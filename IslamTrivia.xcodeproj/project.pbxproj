@@ -15,6 +15,10 @@
 		A71678F62BFE70E80046ECBE /* IslamTriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71678F52BFE70E80046ECBE /* IslamTriviaUITests.swift */; };
 		A71678F82BFE70E80046ECBE /* IslamTriviaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71678F72BFE70E80046ECBE /* IslamTriviaUITestsLaunchTests.swift */; };
 		A71679062BFE78670046ECBE /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71679052BFE78670046ECBE /* PrimaryButton.swift */; };
+		A716790A2BFFAD380046ECBE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71679092BFFAD380046ECBE /* Extensions.swift */; };
+		A71679102BFFB95C0046ECBE /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A716790F2BFFB95C0046ECBE /* QuestionView.swift */; };
+		A71679132BFFBC7B0046ECBE /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71679122BFFBC7B0046ECBE /* Answer.swift */; };
+		A71679152BFFBCBB0046ECBE /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71679142BFFBCBB0046ECBE /* AnswerRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		A71678F52BFE70E80046ECBE /* IslamTriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamTriviaUITests.swift; sourceTree = "<group>"; };
 		A71678F72BFE70E80046ECBE /* IslamTriviaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamTriviaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A71679052BFE78670046ECBE /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		A71679092BFFAD380046ECBE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A716790F2BFFB95C0046ECBE /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		A71679122BFFBC7B0046ECBE /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		A71679142BFFBCBB0046ECBE /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +104,13 @@
 		A71678D92BFE70E70046ECBE /* IslamTrivia */ = {
 			isa = PBXGroup;
 			children = (
+				A71679112BFFBC670046ECBE /* Models */,
 				A71679072BFE798A0046ECBE /* Views */,
 				A71679042BFE784C0046ECBE /* Components */,
 				A71678DA2BFE70E70046ECBE /* IslamTriviaApp.swift */,
 				A71678DE2BFE70E80046ECBE /* Assets.xcassets */,
 				A71678E02BFE70E80046ECBE /* Preview Content */,
+				A71679092BFFAD380046ECBE /* Extensions.swift */,
 			);
 			path = IslamTrivia;
 			sourceTree = "<group>";
@@ -134,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				A71679052BFE78670046ECBE /* PrimaryButton.swift */,
+				A71679142BFFBCBB0046ECBE /* AnswerRow.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -142,8 +153,17 @@
 			isa = PBXGroup;
 			children = (
 				A71678DC2BFE70E70046ECBE /* ContentView.swift */,
+				A716790F2BFFB95C0046ECBE /* QuestionView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A71679112BFFBC670046ECBE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A71679122BFFBC7B0046ECBE /* Answer.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +296,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A71679102BFFB95C0046ECBE /* QuestionView.swift in Sources */,
 				A71679062BFE78670046ECBE /* PrimaryButton.swift in Sources */,
 				A71678DD2BFE70E70046ECBE /* ContentView.swift in Sources */,
+				A71679132BFFBC7B0046ECBE /* Answer.swift in Sources */,
+				A71679152BFFBCBB0046ECBE /* AnswerRow.swift in Sources */,
 				A71678DB2BFE70E70046ECBE /* IslamTriviaApp.swift in Sources */,
+				A716790A2BFFAD380046ECBE /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

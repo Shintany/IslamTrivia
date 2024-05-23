@@ -9,11 +9,11 @@ import SwiftUI
 
 struct PrimaryButton: View {
     var text: String
-    var background: Color = Color(.white)
+    var background: Color
     
     var body: some View {
         Text(text)
-            .foregroundColor(Color("AccentColor"))
+            .foregroundColor(Color("BackgroundColor"))
             .padding()
             .padding(.horizontal)
             .background(background)
@@ -23,5 +23,5 @@ struct PrimaryButton: View {
 }
 
 #Preview {
-    PrimaryButton(text: "Start")
+    PrimaryButton(text: "Start", background: Color("TextColor"))
 }

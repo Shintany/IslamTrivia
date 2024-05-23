@@ -12,18 +12,14 @@ struct ContentView: View {
         VStack(spacing: 40) {
             VStack(spacing:20){
                 Text("الله")
-                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                    .foregroundColor(.white)
+                    .lightBrownTitle()
                 
-                Text("Are you ready to test yourself ?")
-                    .foregroundColor(.white)
+                Text("Connais-tu tous les noms d'Allah ?")
+                    .lightBrownParagraph()
             }
-            PrimaryButton(text: "Let's go !", background: Color(.white))
+            PrimaryButton(text: "Let's go !", background: Color("TextColor"))
         }
-        .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
-        .edgesIgnoringSafeArea(.all)
-        .background(Color("AccentColor"))
+        .darkGreenView()
     }
 }
 
