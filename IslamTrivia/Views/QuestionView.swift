@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct QuestionView: View {
+    @EnvironmentObject var triviaManager : TriviaManager
+    
     var body: some View {
         VStack(spacing:40){
             HStack{
@@ -16,28 +18,32 @@ struct QuestionView: View {
                 
                 Spacer()
                 
-                Text("1 sur 10")
+                Text("\(triviaManager.currentIndex + 1) sur \(triviaManager.length)")
                     .lightBrownParagraph()
                     .fontWeight(.heavy)
             }
             
             HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/){
-                Text("Ar-Rahmaan")
+                Text(triviaManager.question)
                     .lightBrownNameToGuess()
             }
             
-            HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/){
-                Text("الرحمن")
-                    .lightBrownNameToGuess()
+            ForEach(triviaManager.answerChoices, id: \.id){
+                answer in AnswerRow(answer: answer)
+                    .environmentObject(triviaManager)
             }
-            
+            /*
             VStack(alignment: .leading){
                 AnswerRow(answer: Answer(text: "Le Tout Miséricordieux", isCorrect: true))
+                    .environmentObject(triviaManager)
                 AnswerRow(answer: Answer(text: "Le Très Miséricordieux", isCorrect: false))
+                    .environmentObject(triviaManager)
                 AnswerRow(answer: Answer(text: "Le Pardonneur", isCorrect: false))
+                    .environmentObject(triviaManager)
                 AnswerRow(answer: Answer(text: "Le Tout Puissant", isCorrect: false))
+                    .environmentObject(triviaManager)
             }
-            
+            */
             PrimaryButton(text: "Suivant", background: Color("TextColor"))
             
             Spacer()
@@ -51,4 +57,5 @@ struct QuestionView: View {
 
 #Preview {
     QuestionView()
+        .environmentObject(TriviaManager())
 }

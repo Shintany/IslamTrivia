@@ -1,0 +1,578 @@
+[
+    {
+        "transliteration": "Allah",
+        "arabic": "الله",
+        "french": "Dieu",
+        "description": ""
+    },
+    {
+        "transliteration": "Ar-Rahmān",
+        "arabic": "الرحمن",
+        "french": "Le Tout-Miséricordieux",
+        "description": ""
+    },
+    {
+        "transliteration": "Ar-Rahīm",
+        "arabic": "الرحيم",
+        "french": "Le Très-Miséricordieux",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Malik",
+        "arabic": "الملك",
+        "french": "Le Souverain",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Quddūs",
+        "arabic": "القدوس",
+        "french": "Le Saint",
+        "description": ""
+    },
+    {
+        "transliteration": "As-Salām",
+        "arabic": "السلام",
+        "french": "La Paix",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Mu'min",
+        "arabic": "المؤمن",
+        "french": "La Sauvegarde",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Mouhaymin",
+        "arabic": "المهيمن",
+        "french": "Le Préservateur",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-‘Aziz",
+        "arabic": "العزيز",
+        "french": "Le Tout Puissant",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Jabbār",
+        "arabic": "الجبار",
+        "french": "Celui qui domine et contraint",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Mutakabbir",
+        "arabic": "المتكبر",
+        "french": "L'innaccessible",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Khāliq",
+        "arabic": "الخالق",
+        "french": "Le Créateur",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Bāri’",
+        "arabic": "البارئ",
+        "french": "Le Producteur",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Musawwir",
+        "arabic": "المصور",
+        "french": "Celui qui façonne ses créatures",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Ghaffār",
+        "arabic": "الغفار",
+        "french": "Qui absout beaucoup",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Qahhār",
+        "arabic": "القهار",
+        "french": "L'Irrésistible",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Wahhāb",
+        "arabic": "الوهاب",
+        "french": "Le Très Généreux",
+        "description": ""
+    },
+    {
+        "transliteration": "Ar-Razzāq",
+        "arabic": "الرزاق",
+        "french": "Celui qui accorde la subsistance",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Fattāh",
+        "arabic": "الفتاح",
+        "french": "Celui qui accorde la victoire",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-‘Alīm",
+        "arabic": "العليم",
+        "french": "L'Omniscient",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Qabid",
+        "arabic": "القابض",
+        "french": "Celui qui retient et qui rétracte",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Bāsit",
+        "arabic": "الباسط",
+        "french": "Celui qui étend Sa générosité",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Khāfid",
+        "arabic": "الخافض",
+        "french": "Celui qui abaisse",
+        "description": ""
+    },
+    {
+        "transliteration": "Ar-Rāfi‘",
+        "arabic": "الرافع",
+        "french": "Celui qui élève",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Mu‘izz",
+        "arabic": "المعز",
+        "french": "Celui qui rend puissant",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Moudhill",
+        "arabic": "المذل",
+        "french": "Celui qui humilie les fiers",
+        "description": ""
+    },
+    {
+        "transliteration": "As-Samī‘",
+        "arabic": "السميع",
+        "french": "L'Audient, Celui qui entend toute chose",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Basīr",
+        "arabic": "البصير",
+        "french": "Le Voyant, Celui qui voit toute chose",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Hakam",
+        "arabic": "الحكم",
+        "french": "L'Arbitre",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-‘Adl",
+        "arabic": "العدل",
+        "french": "Le Juste",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Latīf",
+        "arabic": "اللطيف",
+        "french": "Le Bon dans l'épreuve",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Khabīr",
+        "arabic": "الخبير",
+        "french": "Le Bien-Informé",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Halīm",
+        "arabic": "الحليم",
+        "french": "Le Doux, le Très Clément",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Adhīm",
+        "arabic": "العظيم",
+        "french": "L'Immense, l'Eminent",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Ḡafhūr",
+        "arabic": "الغفور",
+        "french": "Qui Pardonne",
+        "description": ""
+    },
+    {
+        "transliteration": "Ash-Shakūr",
+        "arabic": "الشكور",
+        "french": "Le Très-Reconnaissant",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-'Ali",
+        "arabic": "العلي",
+        "french": "L'Elevé",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Kabīr",
+        "arabic": "الكبير",
+        "french": "L'Infiniment Grand",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Hafīdh",
+        "arabic": "الحفيظ",
+        "french": "Le Gardien",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Muqīt",
+        "arabic": "المقيت",
+        "french": "Qui nourrit tout le monde",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Hasīb",
+        "arabic": "الحسيب",
+        "french": "Qui règle le compte de tout le monde",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Jalīl",
+        "arabic": "الجليل",
+        "french": "Le Majestueux",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Karīm",
+        "arabic": "الكريم",
+        "french": "Le Noble",
+        "description": ""
+    },
+    {
+        "transliteration": "Ar-Raqīb",
+        "arabic": "الرقيب",
+        "french": "L'Observateur",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Mujīb",
+        "arabic": "المجيب",
+        "french": "Celui qui exauce les prières",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Wāsi‘",
+        "arabic": "الواسع",
+        "french": "Le Vaste",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Hakīm",
+        "arabic": "الحكيم",
+        "french": "Le Sage",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Wadūd",
+        "arabic": "الودود",
+        "french": "Qui aime beaucoup",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Majīd",
+        "arabic": "المجيد",
+        "french": "Le Très Glorieux",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Bā‘ith",
+        "arabic": "الباعث",
+        "french": "Qui ressuscite",
+        "description": ""
+    },
+    {
+        "transliteration": "Ashahīd",
+        "arabic": "الشهيد",
+        "french": "Le Témoin",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Haqq",
+        "arabic": "الحق",
+        "french": "Le Vrai",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Wakīl",
+        "arabic": "الوكيل",
+        "french": "Le Tuteur",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Qawi",
+        "arabic": "القوي",
+        "french": "Le Fort",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Matīn",
+        "arabic": "المتين",
+        "french": "Le Robuste",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Wa'li",
+        "arabic": "الولي",
+        "french": "Le Protecteur",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Hamīd",
+        "arabic": "الحميد",
+        "french": "Le Louable",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Mubdi‘",
+        "arabic": "المبدئ",
+        "french": "L'Auteur",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Mu‘īd",
+        "arabic": "المعيد",
+        "french": "Qui fait rentrer tout le monde dans le néant",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Muhyī",
+        "arabic": "المحيي",
+        "french": "Qui donne la vie",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Mumīt",
+        "arabic": "المميت",
+        "french": "Qui donne la mort",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Hayy",
+        "arabic": "الحي",
+        "french": "Le Vivant",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Qayyūm",
+        "arabic": "القيوم",
+        "french": "L'Immuable",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Wājid",
+        "arabic": "الواجد",
+        "french": "Qui existe",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Mājid",
+        "arabic": "الماجد",
+        "french": "L'Illustre",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Wāhid",
+        "arabic": "الواحد",
+        "french": "L'Unique",
+        "description": ""
+    },
+    {
+        "transliteration": "As-Samad",
+        "arabic": "الصمد",
+        "french": "L' Eternel Seigneur",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Qādir",
+        "arabic": "القادر",
+        "french": "Le Déterminant",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Muqtadir",
+        "arabic": "المقتدر",
+        "french": "Le Tout Puissant",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Muqaddim",
+        "arabic": "المقدم",
+        "french": "Qui a tout précédé",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Mu’akhir",
+        "arabic": "المؤخر",
+        "french": "Qui sera après tout",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Awwal",
+        "arabic": "الأول",
+        "french": "Le Premier, dont l'existence n'a pas de début",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Ākhir",
+        "arabic": "الآخر",
+        "french": "Le Dernier, dont l'existence n'a pas de fin",
+        "description": ""
+    },
+    {
+        "transliteration": "Adh-Dhāhir",
+        "arabic": "الظاهر",
+        "french": "L'Extérieur, l'Apparent",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Bātin",
+        "arabic": "الباطن",
+        "french": "L'Intérieur, le Caché",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Wāly",
+        "arabic": "الواليي",
+        "french": "Le Monarque",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Barr",
+        "arabic": "البر",
+        "french": "Le Bienfaiteur",
+        "description": ""
+    },
+    {
+        "transliteration": "At-Tawwab",
+        "arabic": "التواب",
+        "french": "Qui ne cesse d'accueillir le repentir",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Muntaqim",
+        "arabic": "المنتقم",
+        "french": "Le Vengeur",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Afuww",
+        "arabic": "العفو",
+        "french": "L'Indulgent",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Ra’ūf",
+        "arabic": "الرؤوف",
+        "french": "Le Bienveillant en grâce",
+        "description": ""
+    },
+    {
+        "transliteration": "Mālik-ul-Mulk",
+        "arabic": "مالك الملك",
+        "french": "Le Maître du Pouvoir",
+        "description": ""
+    },
+    {
+        "transliteration": "Dhul-Jalāli-wal-Ikrām",
+        "arabic": "ذو الجلال و الإكرام",
+        "french": "Détenteur de Majesté qui mérite d'être Exalté",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Muqsit",
+        "arabic": "المقسط",
+        "french": "L'Equitable",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Jāmi‘",
+        "arabic": "الجامع",
+        "french": "Le Rassembleur",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Ḡhani",
+        "arabic": "الغني",
+        "french": "Le Riche par excellence",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Mughni",
+        "arabic": "المغنى",
+        "french": "Qui satisfait les besoins de Ses créatures",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Māni‘",
+        "arabic": "المانع",
+        "french": "Le Défenseur",
+        "description": ""
+    },
+    {
+        "transliteration": "Ad-Dār",
+        "arabic": "الضار",
+        "french": "Qui peut nuire (à ceux qui L'offensent)",
+        "description": ""
+    },
+    {
+        "transliteration": "An-Nāfi‘",
+        "arabic": "النافع",
+        "french": "L'Utile",
+        "description": ""
+    },
+    {
+        "transliteration": "An-Nūr",
+        "arabic": "النور",
+        "french": "La Lumière",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Hādi",
+        "arabic": "الهادي",
+        "french": "Le Guide",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Badī‘",
+        "arabic": "البديع",
+        "french": "L'inventeur",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Baqi",
+        "arabic": "الباقي",
+        "french": "Le Permanent",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Wārith",
+        "arabic": "الوارث",
+        "french": "L'Héritier",
+        "description": ""
+    },
+    {
+        "transliteration": "As-Sabur",
+        "arabic": "الصبور",
+        "french": "Le Patient",
+        "description": ""
+    }
+]

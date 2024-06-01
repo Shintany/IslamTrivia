@@ -22,6 +22,7 @@
 		A71679172BFFC5610046ECBE /* TriviaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71679162BFFC5610046ECBE /* TriviaView.swift */; };
 		A71679192BFFC6BE0046ECBE /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71679182BFFC6BE0046ECBE /* Trivia.swift */; };
 		A716791C2BFFCEEA0046ECBE /* names.json in Resources */ = {isa = PBXBuildFile; fileRef = A716791B2BFFCEEA0046ECBE /* names.json */; };
+		A716791E2C0349D20046ECBE /* TriviaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A716791D2C0349D20046ECBE /* TriviaManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		A71679162BFFC5610046ECBE /* TriviaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaView.swift; sourceTree = "<group>"; };
 		A71679182BFFC6BE0046ECBE /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
 		A716791B2BFFCEEA0046ECBE /* names.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = names.json; sourceTree = "<group>"; };
+		A716791D2C0349D20046ECBE /* TriviaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		A71678D92BFE70E70046ECBE /* IslamTrivia */ = {
 			isa = PBXGroup;
 			children = (
+				A716791B2BFFCEEA0046ECBE /* names.json */,
 				A716791A2BFFC7D00046ECBE /* Resources */,
 				A71679112BFFBC670046ECBE /* Models */,
 				A71679072BFE798A0046ECBE /* Views */,
@@ -118,6 +121,7 @@
 				A71678DE2BFE70E80046ECBE /* Assets.xcassets */,
 				A71678E02BFE70E80046ECBE /* Preview Content */,
 				A71679092BFFAD380046ECBE /* Extensions.swift */,
+				A716791D2C0349D20046ECBE /* TriviaManager.swift */,
 			);
 			path = IslamTrivia;
 			sourceTree = "<group>";
@@ -178,7 +182,6 @@
 		A716791A2BFFC7D00046ECBE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A716791B2BFFCEEA0046ECBE /* names.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A716791E2C0349D20046ECBE /* TriviaManager.swift in Sources */,
 				A71679102BFFB95C0046ECBE /* QuestionView.swift in Sources */,
 				A71679192BFFC6BE0046ECBE /* Trivia.swift in Sources */,
 				A71679062BFE78670046ECBE /* PrimaryButton.swift in Sources */,

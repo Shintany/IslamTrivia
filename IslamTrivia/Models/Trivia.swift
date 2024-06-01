@@ -14,10 +14,7 @@ struct Trivia : Decodable{
         var id: UUID{
             UUID()
         }
-        var transliteration: String
-        var french: String
-        var arabic: String
-        var description: String
+        
         var correctAnswer: String
         var incorrectAnswers: [String]
         var question: String
