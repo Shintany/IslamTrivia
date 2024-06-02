@@ -342,6 +342,12 @@
         "description": ""
     },
     {
+        "transliteration": "Al-Muhsi",
+        "arabic": "المحصي",
+        "french": "Qui connaît les comptes de tous",
+        "description": ""
+    },
+    {
         "transliteration": "Al-Mubdi‘",
         "arabic": "المبدئ",
         "french": "L'Auteur",
@@ -453,6 +459,12 @@
         "transliteration": "Al-Wāly",
         "arabic": "الواليي",
         "french": "Le Monarque",
+        "description": ""
+    },
+    {
+        "transliteration": "Al-Muta'āli",
+        "arabic": "المتعالي",
+        "french": "Le Sublime",
         "description": ""
     },
     {
@@ -570,9 +582,16 @@
         "description": ""
     },
     {
+        "transliteration": "Ar-Rashīd",
+        "arabic": "الرشيد",
+        "french": "Qui agit avec droiture",
+        "description": ""
+    },
+    {
         "transliteration": "As-Sabur",
         "arabic": "الصبور",
         "french": "Le Patient",
         "description": ""
     }
 ]
+

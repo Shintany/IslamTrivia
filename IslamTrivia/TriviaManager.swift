@@ -42,7 +42,8 @@ class TriviaManager : ObservableObject{
                 print("I try fecthing names...")
                 let fileUrl = URL(fileURLWithPath: filePath)
                 let data = try Data(contentsOf: fileUrl)
-                let decodedData = try JSONDecoder().decode([Name].self, from: data)
+                names = try JSONDecoder().decode([Name].self, from: data)
+                print("names length: \(names.count)")
             } else{
                 print("Couldn't fetch names...")
             }
