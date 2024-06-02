@@ -14,7 +14,7 @@ class TriviaManager : ObservableObject{
     var names : [Name] = []
     var filename : String = "names"
     var length : Int = 0
-    struct Name : Codable{
+    struct Name : Decodable{
         var transliteration: String
         var french: String
         var arabic: String
@@ -31,10 +31,6 @@ class TriviaManager : ObservableObject{
         length = names.count
     }
     
-    struct responseData : Codable{
-        let names : [Name]
-    }
-    
     func shuffleQuestions(){
         self.names.shuffle()
     }
@@ -46,8 +42,7 @@ class TriviaManager : ObservableObject{
                 print("I try fecthing names...")
                 let fileUrl = URL(fileURLWithPath: filePath)
                 let data = try Data(contentsOf: fileUrl)
-                let decodedData = try JSONDecoder().decode(responseData.self, from: data)
-                print(decodedData);
+                let decodedData = try JSONDecoder().decode([Name].self, from: data)
             } else{
                 print("Couldn't fetch names...")
             }
