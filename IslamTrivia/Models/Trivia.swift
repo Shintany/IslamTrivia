@@ -30,9 +30,9 @@ struct Trivia : Decodable{
         
         var answers: [Answer] {
             do{
-                let correct = [Answer(text:try AttributedString(markdown: correctAnswer), isCorrect: true )]
+                let correct = [Answer(text: correctAnswer, isCorrect: true )]
                 let incorrects = try incorrectAnswers.map{ answer in
-                    Answer(text: try AttributedString(markdown: answer), isCorrect: false)
+                    Answer(text: answer, isCorrect: false)
                 }
                 let allAnswers = correct + incorrects
                 

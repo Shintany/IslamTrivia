@@ -28,22 +28,13 @@ struct QuestionView: View {
                     .lightBrownNameToGuess()
             }
             
-            ForEach(triviaManager.answerChoices, id: \.id){
-                answer in AnswerRow(answer: answer)
-                    .environmentObject(triviaManager)
+            VStack(spacing:10){
+                ForEach(triviaManager.answerChoices, id: \.id){
+                    answer in AnswerRow(answer: answer)
+                        .environmentObject(triviaManager)
+                }
             }
-            /*
-            VStack(alignment: .leading){
-                AnswerRow(answer: Answer(text: "Le Tout Miséricordieux", isCorrect: true))
-                    .environmentObject(triviaManager)
-                AnswerRow(answer: Answer(text: "Le Très Miséricordieux", isCorrect: false))
-                    .environmentObject(triviaManager)
-                AnswerRow(answer: Answer(text: "Le Pardonneur", isCorrect: false))
-                    .environmentObject(triviaManager)
-                AnswerRow(answer: Answer(text: "Le Tout Puissant", isCorrect: false))
-                    .environmentObject(triviaManager)
-            }
-            */
+            
             PrimaryButton(text: "Suivant", background: Color("TextColor"))
             
             Spacer()
@@ -52,6 +43,7 @@ struct QuestionView: View {
         .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
         .background(Color("BackgroundColor"))
         .navigationBarBackButtonHidden(true)
+        
     }
 }
 

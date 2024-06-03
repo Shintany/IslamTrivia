@@ -22,16 +22,23 @@ class TriviaManager : ObservableObject{
     }
     
     @Published private(set) var answerSelected = false
-    @Published private(set) var question: AttributedString = ""
+    @Published private(set) var question: String = ""
     @Published private(set) var answerChoices: [Answer] = []
     @Published private(set) var score = 0
     
     init(){
+        // Fetching names from the json files
         fetchNames()
+        // Setting the length of the array
         length = names.count
+        // Shuffle the whole array
+        shuffleQuestions()
+        // Setting the first question
+        setQuestion()
     }
     
     func shuffleQuestions(){
+        print("Shuffling the array..")
         self.names.shuffle()
     }
     
@@ -43,7 +50,6 @@ class TriviaManager : ObservableObject{
                 let fileUrl = URL(fileURLWithPath: filePath)
                 let data = try Data(contentsOf: fileUrl)
                 names = try JSONDecoder().decode([Name].self, from: data)
-                print("names length: \(names.count)")
             } else{
                 print("Couldn't fetch names...")
             }
@@ -75,12 +81,20 @@ class TriviaManager : ObservableObject{
     }
     
     func setQuestion(){
+        print("Setting the question..")
         answerSelected = false
-        
-        if currentIndex < length{
+        if currentIndex < names.count{
+            /*
             let currentTriviaQuestion = trivia[currentIndex]
             question = currentTriviaQuestion.formattedQuestion
             answerChoices = currentTriviaQuestion.answers
+             */
+            self.question = getName(index: currentIndex, lang: "transliteration")
+            print("The question is \(question)")
+            // Setting answers
+            setAnswers()
+        } else {
+            print("The current index \(currentIndex) is inferior to length \(names.count)")
         }
     }
     
@@ -88,6 +102,29 @@ class TriviaManager : ObservableObject{
         answerSelected = true
         if answer.isCorrect {
             score += 1
+        }
+    }
+    
+    func setAnswers(){
+        do{
+            // Define correct answer
+            let correct = [Answer(text: names[currentIndex].french, isCorrect: true )]
+            // Define incorrect answers
+            var incorrects = [Answer]()
+            var useIndexes = [Int]()
+            useIndexes.append(currentIndex)
+            var i = 0
+            while i < 3{
+                let randomNumber = arc4random_uniform(100)
+                if (!useIndexes.contains(Int(randomNumber))){
+                    incorrects.append(Answer(text: names[Int(randomNumber)].french, isCorrect: false))
+                    useIndexes.append(Int(randomNumber))
+                    i += 1
+                }
+            }
+            // Shuffling answer order
+            answerChoices = correct + incorrects
+            answerChoices.shuffle()
         }
     }
 }
