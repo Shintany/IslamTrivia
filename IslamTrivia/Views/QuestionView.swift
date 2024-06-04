@@ -18,13 +18,18 @@ struct QuestionView: View {
                 
                 Spacer()
                 
-                Text("\(triviaManager.currentIndex + 1) sur \(triviaManager.length)")
+                Text("Score : \(triviaManager.score)")
                     .lightBrownParagraph()
                     .fontWeight(.heavy)
             }
             
             HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/){
                 Text(triviaManager.question)
+                    .lightBrownNameToGuess()
+            }
+            
+            HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/){
+                Text(triviaManager.secondaryQuestion)
                     .lightBrownNameToGuess()
             }
             
@@ -35,7 +40,12 @@ struct QuestionView: View {
                 }
             }
             
-            PrimaryButton(text: "Suivant", background: Color("TextColor"))
+            Button{
+                triviaManager.goToNextQuestion()
+            } label: {
+                PrimaryButton(text: "Suivant", background: triviaManager.answerSelected ? Color("TextColor") : Color(hue: 1.0, saturation: 0.0, brightness: 0.564, opacity: 0.327))
+            }
+            .disabled(!triviaManager.answerSelected)
             
             Spacer()
         }

@@ -23,6 +23,7 @@ class TriviaManager : ObservableObject{
     
     @Published private(set) var answerSelected = false
     @Published private(set) var question: String = ""
+    @Published private(set) var secondaryQuestion: String = ""
     @Published private(set) var answerChoices: [Answer] = []
     @Published private(set) var score = 0
     
@@ -64,7 +65,16 @@ class TriviaManager : ObservableObject{
             return "";
         }
         
-        return self.names[index].transliteration
+        switch lang {
+        case "transliteration":
+            return self.names[index].transliteration
+        case "french":
+            return self.names[index].french
+        case "arabic":
+            return self.names[index].arabic
+        default:
+            return self.names[index].transliteration
+        }
     }
     
     func goToNextQuestion(){
@@ -84,13 +94,9 @@ class TriviaManager : ObservableObject{
         print("Setting the question..")
         answerSelected = false
         if currentIndex < names.count{
-            /*
-            let currentTriviaQuestion = trivia[currentIndex]
-            question = currentTriviaQuestion.formattedQuestion
-            answerChoices = currentTriviaQuestion.answers
-             */
+            // Setting questions parameters
             self.question = getName(index: currentIndex, lang: "transliteration")
-            print("The question is \(question)")
+            self.secondaryQuestion = getName(index: currentIndex, lang: "arabic")
             // Setting answers
             setAnswers()
         } else {
