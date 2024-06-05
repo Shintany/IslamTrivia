@@ -30,10 +30,11 @@ struct AnswerRow: View {
         }
         .padding()
         .frame(maxWidth: .infinity, alignment: .leading)
-        .foregroundColor(triviaManager.answerSelected ? (isSelected ? Color("TextColor") : .gray) : Color("TextColor"))
+        .foregroundColor(triviaManager.answerSelected ? (isSelected ? Color("TextColor") : (answer.isCorrect ? Color("TextColor") : .gray)) : Color("TextColor"))
         .background(Color("AnswerBackgroundColor"))
         .cornerRadius(10)
-        .shadow(color: isSelected ? (answer.isCorrect ? .green : .red ) : .gray, radius: 5, x:0.5, y: 0.5)
+        //.shadow(color: isSelected ? (answer.isCorrect ? .green : .red ) : .gray, radius: 5, x:0.5, y: 0.5)
+        .shadow(color: triviaManager.answerSelected ? (isSelected ? (answer.isCorrect ? .green : .red ) : (answer.isCorrect ? .green : .gray)) : .gray, radius: 5, x:0.5, y: 0.5)
         .onTapGesture {
             if !triviaManager.answerSelected{
                 isSelected = true
