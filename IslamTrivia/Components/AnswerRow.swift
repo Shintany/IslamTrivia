@@ -30,8 +30,7 @@ struct AnswerRow: View {
         }
         .padding()
         .frame(maxWidth: .infinity, alignment: .leading)
-        .foregroundColor(isSelected ?
-                         Color("TextColor") : Color("NotSelectedAnswerColor"))
+        .foregroundColor(triviaManager.answerSelected ? (isSelected ? Color("TextColor") : .gray) : Color("TextColor"))
         .background(Color("AnswerBackgroundColor"))
         .cornerRadius(10)
         .shadow(color: isSelected ? (answer.isCorrect ? .green : .red ) : .gray, radius: 5, x:0.5, y: 0.5)
@@ -45,6 +44,6 @@ struct AnswerRow: View {
 }
 
 #Preview {
-    AnswerRow(answer: Answer(text: "Allah", isCorrect: false))
+    AnswerRow(answer: Answer(text: "Allah", isCorrect: true))
         .environmentObject(TriviaManager())
 }

@@ -23,6 +23,8 @@ struct QuestionView: View {
                     .fontWeight(.heavy)
             }
             
+            Spacer()
+            
             HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/){
                 Text(triviaManager.question)
                     .lightBrownNameToGuess()
@@ -32,6 +34,8 @@ struct QuestionView: View {
                 Text(triviaManager.secondaryQuestion)
                     .lightBrownNameToGuess()
             }
+            
+            Spacer()
             
             VStack(spacing:10){
                 ForEach(triviaManager.answerChoices, id: \.id){
@@ -47,7 +51,6 @@ struct QuestionView: View {
             }
             .disabled(!triviaManager.answerSelected)
             
-            Spacer()
         }
         .padding()
         .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
