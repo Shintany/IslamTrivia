@@ -28,6 +28,7 @@ class TriviaManager : ObservableObject{
     @Published private(set) var score = 0
     
     init(){
+        print("Init...")
         // Fetching names from the json files
         fetchNames()
         // Setting the length of the array
@@ -121,7 +122,7 @@ class TriviaManager : ObservableObject{
             useIndexes.append(currentIndex)
             var i = 0
             while i < 3{
-                let randomNumber = arc4random_uniform(100)
+                let randomNumber = arc4random_uniform(UInt32(names.count))
                 if (!useIndexes.contains(Int(randomNumber))){
                     incorrects.append(Answer(text: names[Int(randomNumber)].french, isCorrect: false))
                     useIndexes.append(Int(randomNumber))
